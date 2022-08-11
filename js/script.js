@@ -86,7 +86,7 @@ elInput.addEventListener("change", function(evt){
    evt.preventDefault();
 
    if (elInput.checked == true) {
-      createLi.textContent = "* pamidor";
+      createLi.textContent = "* Pamidor";
       elList.appendChild(createLi)
       } else if (elInput.checked == false) {
          elList.removeChild(createLi);
@@ -114,7 +114,7 @@ elInput3.addEventListener("change", function(evt){
    evt.preventDefault();
 
    if (elInput3.checked == true) {
-      createLi3.textContent = "* zaytun";
+      createLi3.textContent = "* Zaytun";
       elList.appendChild(createLi3)
       } else if (elInput3.checked == false) {
          elList.removeChild(createLi3);

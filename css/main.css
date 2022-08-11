@@ -1,4 +1,4 @@
-.radiodiv{
+.radiodiv {
    width: 100px;
    height: 100px;
    border-radius: 50%;
@@ -14,21 +14,18 @@
    border:  2px solid red ;
 }
 
-.radiodiv:active{
+.radiodiv:active {
    border: 2px solid green;
 }
 
-.produce-type{
+.produce-type {
    height: 100px;
 }
-.produce-type label{
+.produce-type label {
    display: flex;
    flex-direction: row-reverse;
    justify-content: flex-end;
    align-items: center;
-}
-#output{
-   margin: 5px 0;
 }
 
 .list {
