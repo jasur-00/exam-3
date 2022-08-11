@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./css/main.css">
+   <link rel="stylesheet" href="./css/bootstrap.css">
+   <title>Pizza</title>
+</head>
+<body class="fs-5 bg-success">
+   
+   <div class="container">
+      <h1 class="visually-hidden"></h1>
+      <h2 class="site__title text-center mb-5 pt-5 text-white">Pitsa buyurtma qilish</h2>
+      <div class="site__big-box row">
+
+            <div class="site__box col-8 border-end border-4 border-dark">
+               
+               <div class="site__mini-box shadow-lg rounded p-3 mt-2 mb-5 bg-body">
+
+                  <form class="form js-form-chek d-flex flex-column" action="https://echo.htmlacademy.ru/" id="form-pizza" method="post" autocomplete="off">
+
+                     <h3>Noni qanday bo'lsin? </h3>
+                     <label class="label mb-4"> 
+                     
+                        <select class="select form-select mt-2 w-25" name="name" >
+                        </select>
+                     </label> 
+                     
+                     <h3>Kattaligi: </h3>
+                     <label class="chek__radio mb-4 pt-3 d-flex" name="name">
+
+                        
+                     </label>
+                     
+                     <h3>Ustiga nima solaylik? </h3>
+                     <div class="box d-flex">
+                        <div class="box mx-4 d-flex flex-column">
+                           <label class="lb__1">
+                              <input class="input__1" type="checkbox">
+      
+                              <span class="span">Pamidor</span>
+                           </label>
+                           
+                           <label class="lb__2">
+                              <input class="input__2" type="checkbox">
+   
+                              <span class="span">Kurka go`shti</span>
+                           </label>
+   
+                           <label class="lb__3">
+                              <input class="input__3" type="checkbox">
+   
+                              <span class="span">Zaytun</span>
+                           </label>
+                        </div>
+   
+                        <div class="box d-flex flex-column">
+                           <label class="lb__4">
+                              <input class="input__4" type="checkbox">
+      
+                              <span class="span">Tuzlangan Bodring</span>
+                           </label>
+                           
+                           <label class="lb__5">
+                              <input class="input__5" type="checkbox">
+   
+                              <span class="span">Qo`ziqorin</span>
+                           </label>
+   
+                           <label class="lb__6">
+                              <input class="input__6" type="checkbox">
+   
+                              <span class="span">Qazi</span>
+                           </label>
+                        </div>
+                     </div>
+
+                     <h3>Qo'shimchalar: </h3>
+                     <div class="d-flex ">
+                        <label class="lb__one mx-4">
+                           <input class="input__one" type="checkbox">
+
+                           <span>Achchiq</span>
+                        </label>
+
+                        <label class="lb__two">
+                           <input class="input__two" type="checkbox">
+
+                           <span>Sosiskali</span>
+                        </label>
+                     </div>
+   
+                  </form>
+               </div>
+            
+            </div>
+
+            <div class="site__box col-4">
+
+               <div class="site__mini-box shadow-lg p-3 mt-2 mb-5 bg-body rounded d-flex flex-column fs-6">
+
+                  <output id="output" class="mb-3">
+
+                     <strong>Noni: </strong>
+                     <strong
+                     class="output__str text-danger"></strong>
+   
+                  </output>
+
+                  <output id="output" >
+
+                     <strong>Kattaligi: </strong>
+                     <strong class="output__hajmi text-danger"></strong>
+   
+                  </output>
+
+                  <div>
+                     <strong>Ustida</strong>
+
+                     <ul class="list list-unstyled text-danger fs-4"></ul>
+                  </div>
+
+                  <div>
+                     <strong>Qoshimcha:</strong>
+
+                     <ul class="list__one list-unstyled text-danger fs-4"></ul>
+                  </div>
+
+               </div>
+               <button class="btn bg-danger ms-5 w-75 p-4" type="submit" form="form-pizza">Buyurtma berish</button>
+            </div>
+      </div>
+            
+            
+
+      
+   </div>
+
+
+   
+   <script src="./js/script.js"></script>
+</body>
+</html>
