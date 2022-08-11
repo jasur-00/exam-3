@@ -23,7 +23,6 @@ function Nonselect(array,list){
          let elOption = document.createElement("option");
          elOption.setAttribute("value",array[i]);
          elOption.setAttribute("class",".option_val");
-         // elOption.dataset.optionId = i;
          elOption.textContent = array[i];
          elOption.value = array[i];
          list.appendChild(elOption); 
@@ -53,8 +52,6 @@ function checkRadio(array,list){
          elRadio.setAttribute("class","visually-hidden");
          elRadiodiv.setAttribute("class","radiodiv");
          elRadiodiv.setAttribute("value",array[i]);
-         // elRadio.dataset.radioId = i;
-         // elRadiodiv.dataset.radioDivId = i;
          elRadiodiv.textContent = array[i];
          elRadiodiv.appendChild(elRadio);
          list.appendChild(elRadiodiv); 
